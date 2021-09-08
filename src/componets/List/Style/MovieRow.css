@@ -1,0 +1,7 @@
+.movieRow-listarea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 200px;
+}
+/*# sourceMappingURL=MovieRow.css.map */

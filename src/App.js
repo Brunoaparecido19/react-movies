@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Tmbd from "./Tmbd";
 import MovieRow from "./componets/List/MovieRow";
 
+
 export default () => {
   const [movieList, setMovieList] = useState([]);
   useEffect(() => {
