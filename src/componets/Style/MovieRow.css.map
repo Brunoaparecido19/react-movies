@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACN,aAAa,EAAE,IAAI;CAAG;;AAC1B,AAAA,SAAS,CAAC,EAAE,CAAC;EACT,MAAM,EAAE,gBAAgB;CAAG;;AAC/B,AAAA,kBAAkB,CAAC;EACf,UAAU,EAAE,MAAM;CAAG;;AACzB,AAAA,cAAc,CAAC;EACX,KAAK,EAAE,UAAU;CAAG;;AACxB,AAAA,cAAc,CAAC;EACX,OAAO,EAAE,YAAY;EACrB,OAAO,EAAE,IAAI;CAAG",
+    "sources": [
+        "MovieRow.sass"
+    ],
+    "names": [],
+    "file": "MovieRow.css"
+}
