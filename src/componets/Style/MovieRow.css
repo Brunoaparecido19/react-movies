@@ -8,14 +8,29 @@
 
 .movieRow-listarea {
   overflow-x: hidden;
+  padding-left: 30px;
 }
 
 .movieRow-list {
-  width: 99999999px;
+  width: 9999999px;
 }
 
 .movieRow-item {
   display: inline-block;
-  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.movieRow-item img {
+  width: 100%;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.movieRow-item img:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
 /*# sourceMappingURL=MovieRow.css.map */

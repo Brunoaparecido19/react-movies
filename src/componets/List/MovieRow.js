@@ -12,7 +12,6 @@ export default ({ title, items }) => {
               <div key={key} className="movieRow-item">
                 <img
                   src={`https://www.themoviedb.org/t/p/original/${item.poster_path}`}
-                  style={{ height: "300px" }}
                 />
               </div>
             ))}

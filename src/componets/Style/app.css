@@ -5,7 +5,9 @@
 }
 
 body {
-  background-color: #000000;
+  background: #383838;
+  background: -webkit-gradient(linear, left bottom, left top, from(#1f1f1f), color-stop(50%, #131313), to(#000000));
+  background: linear-gradient(0deg, #1f1f1f 0%, #131313 50%, #000000 100%);
   color: #FFF;
   font-family: "Roboto", sans-serif;
   margin: 0;
