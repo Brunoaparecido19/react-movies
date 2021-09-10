@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,SAAS,CAAC;EACN,MAAM,EAAE,KAAK;CAAG;;AACpB,AAAA,kBAAkB,CAAC;EACf,KAAK,EAAE,OAAO;EACd,MAAM,EAAE,OAAO;EACf,UAAU,EAAE,qDAAoD;CAAG;;AACvE,AAAA,oBAAoB,CAAC;EACjB,KAAK,EAAE,OAAO;EACd,MAAM,EAAE,OAAO;EACf,UAAU,EAAE,uDAAsD;CAAG",
-    "sources": [
-        "featuredMovie.sass"
-    ],
-    "names": [],
-    "file": "featuredMovie.css"
-}

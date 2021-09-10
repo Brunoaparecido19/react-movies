@@ -2,6 +2,7 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  overflow-y: none;
 }
 
 body {
@@ -12,4 +13,8 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
-/*# sourceMappingURL=app.css.map */
+
+.lists {
+  margin-top: -150px;
+}
+/*# sourceMappingURL=App.css.map */
