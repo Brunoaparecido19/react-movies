@@ -1,11 +1,15 @@
 import React, { useEffect, useState } from "react";
-import '../FeaturedMovie/style/FeaturedMovie.css'
+import "../FeaturedMovie/style/FeaturedMovie.css";
 
 export default ({ item }) => {
   let firstDate = new Date(item.first_air_date);
   let genres = [];
   for (let i in item.genres) {
     genres.push(item.genres[i].name);
+  }
+  let description = item.overview;
+  if (description.length > 300) {
+    description = description.substring(0, 200) + "...";
   }
   return (
     <section
@@ -27,10 +31,10 @@ export default ({ item }) => {
               {item.number_of_seasons != 1 ? "s" : ""}
             </div>
           </div>
-          <div className="featured-description">{item.overview} </div>
+          <div className="featured-description">{description} </div>
           <div className="featured-buttons">
             <a
-              href={`/tv/${item.id}/watch/providers`}
+              href={`/tv/${item.id}/watch/providers/`}
               className="featured-watchButton"
             >
               ►&nbsp;Assita

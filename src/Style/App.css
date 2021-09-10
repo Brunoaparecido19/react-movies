@@ -10,11 +10,32 @@ body {
   background: -webkit-gradient(linear, left bottom, left top, from(#1f1f1f), color-stop(50%, #131313), to(#000000));
   background: linear-gradient(0deg, #1f1f1f 0%, #131313 50%, #000000 100%);
   color: #FFF;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 
 .lists {
   margin-top: -150px;
+}
+
+.loading {
+  -webkit-filter: saturate(100%);
+          filter: saturate(100%);
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=App.css.map */

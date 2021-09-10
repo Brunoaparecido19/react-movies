@@ -12,7 +12,8 @@
 }
 
 .movieRow-list {
-  width: 9999999px;
+  -webkit-transition: all ease 0.6s;
+  transition: all ease 0.6s;
 }
 
 .movieRow-item {
@@ -32,5 +33,47 @@
           transform: scale(1);
   -webkit-transition: all ease 0.2s;
   transition: all ease 0.2s;
+}
+
+.movieRow-left,
+.movieRow-right {
+  position: absolute;
+  width: 40px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 99;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.movieRow-left {
+  left: 0;
+}
+
+.movieRow-right {
+  right: 0;
+}
+
+.movieRow:hover .movieRow-left,
+.movieRow:hover .movieRow-right {
+  opacity: 1;
+}
+
+@media (max-width: 760px) {
+  .movieRow-left, .movieRow-right {
+    opacity: 1;
+  }
 }
 /*# sourceMappingURL=MovieRow.css.map */

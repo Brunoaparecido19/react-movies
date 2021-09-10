@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap')
-@import "./Variables/Variables"
 *
     box-sizing: border-box
     overflow-y: none
@@ -8,7 +7,19 @@ body
     background: rgb(56,56,56)
     background: linear-gradient(0deg, #1f1f1f 0%, #131313 50%, #000000 100%)
     color: #FFF
-    font-family: $font-body
+    font-family: 'Roboto', sans-serif
     margin: 0
 .lists
     margin-top: -150px
+.loading
+    filter: saturate(100%)
+    position: fixed
+    left: 0
+    top: 0
+    right: 0
+    bottom: 0
+    z-index: 99
+    background-color: #000
+    display: flex
+    justify-content: center
+    align-items: center

@@ -1,4 +1,4 @@
-@import "../../Style/Variables/Variables"
+$mobile: 760px
 .featured
     height: 100vh
 .featured-vertical
@@ -17,11 +17,11 @@
     background: linear-gradient(to right,#000000 10%, transparent 90%)
 .featured-name
     font-size: 60px
-    font-weight: $font-bold
+    font-weight: bold
 .featured_info
     display: inline-block
-    font-size: $font-size-featured
-    font-weight: $font-bold
+    font-size: 18px
+    font-weight: bold
     margin-top: 15px
 .featured-points,
 .featured-year,
@@ -41,7 +41,7 @@
 .featured-addButton
     display: inline-block
     font-size: 20px
-    font-weight: $font-bold
+    font-weight: bold
     padding: 12px 25px
     border-radius: 5px
     text-decoration: none
@@ -63,3 +63,20 @@
     margin-top: 15px
     font-size: 18px
     color: #999
+@media   ( max-width: $mobile  )
+    .featured
+        height: 90vh
+    .featured-name
+        font-size: 40px
+    .featured-info
+        font-size: 16px
+    .featured-description
+        font-size: 14px
+        max-width: 100%
+        margin-right: 30px
+    .featured-watchButton,
+    .featured-addButton
+        font-size: 16px
+    .featured-genres
+        font-size: 14px
+
